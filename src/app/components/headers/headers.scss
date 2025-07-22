@@ -1,0 +1,20 @@
+nav{
+    background: #413c89;
+    height: 80px;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        padding: 0 10px;
+        border-radius: 10px;
+        transition: background 0.5s ease;
+        &:hover{
+            cursor: pointer;
+            background: #5c57b3;
+        }
+    }
+    .body{}
+    .end{}
+}
