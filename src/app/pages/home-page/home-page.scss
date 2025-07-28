@@ -1,0 +1,24 @@
+.box-item {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 10px;
+  height: 400px;
+  background: red;
+  
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+
+  ::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+}

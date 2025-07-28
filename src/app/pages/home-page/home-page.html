@@ -1,2 +1,7 @@
 <app-headers></app-headers>
 <p>home-page works!</p>
+<div class="box-item">
+    @for (item of movie; track $index) {
+        <app-card-mini [id]="$index" [image]="item.image" [star]="item.midb" [title]="item.name"></app-card-mini>
+    }
+</div>
