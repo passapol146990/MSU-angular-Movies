@@ -9,7 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardMini {
   @Input()id!: number;
   @Input() image!: string;
-  @Input() star!: Float32Array;
+  @Input() star!: number|string;
   @Input() title!: string;
   name: string = '';
 

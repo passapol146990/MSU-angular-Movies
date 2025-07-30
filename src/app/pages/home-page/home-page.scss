@@ -1,10 +1,14 @@
 .box-item {
   display: flex;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  gap: 10px;
-  height: 400px;
-  background: red;
+  justify-content: center;
+  padding: 10px;
+  .items{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 10px;
+    width: 80%;
+  }
   
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;

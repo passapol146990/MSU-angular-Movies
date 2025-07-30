@@ -1,7 +1,15 @@
 <app-headers></app-headers>
-<p>home-page works!</p>
 <div class="box-item">
-    @for (item of movie; track $index) {
-        <app-card-mini [id]="$index" [image]="item.image" [star]="item.midb" [title]="item.name"></app-card-mini>
-    }
+    <div class="items" style="height: 400px;">
+        @for (item of movies; track $index) {
+            <app-card-mini [id]="$index" [image]="item.image" [star]="item.midb" [title]="item.name"></app-card-mini>
+        }
+    </div>
+</div>
+<div class="box-item">
+    <div class="items" style="height: 100%;">
+        @for (item of creators; track $index) {
+            <app-card-creadeter [image]="item.image" [name]="item.name" [age]="item.age"></app-card-creadeter>
+        }
+    </div>
 </div>
