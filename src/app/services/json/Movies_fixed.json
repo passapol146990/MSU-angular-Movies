@@ -27,7 +27,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BZDE3NDY1ZjItYTg2Ny00Y2JjLWEzNTItMzdjOGQ5OTBhNjVhXkEyXkFqcGc@._V1_QL75_UX140_CR0,12,140,140_.jpg",
         "age": 33
       }
-    ]
+    ],
+    "genre": "Animation"
   },
   {
     "name": "Moana 2",
@@ -57,7 +58,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BMzNhOTY4NjktYTVkNC00NjVlLWIyYzgtMTc4MGZjZGE3ODhjXkEyXkFqcGc@._V1_QL75_UX140_CR0,0,140,140_.jpg",
         "age": 30
       }
-    ]
+    ],
+    "genre": "Adventure"
   },
   {
     "name": "Wicked",
@@ -87,7 +89,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BMTg0NTI0NDkzOF5BMl5BanBnXkFtZTcwMjYwMTIwNw@@._V1_QL75_UX140_CR0,16,140,140_.jpg",
         "age": 27
       }
-    ]
+    ],
+    "genre": "Musical"
   },
   {
     "name": "Squid Game",
@@ -122,7 +125,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BNmY2NGFiZTAtMWU0Ny00YWEyLThmNmUtZDNjN2Q4Zjg4MjNiXkEyXkFqcGc@._V1_CR511,0,3333,5000_QL75_UX140_CR0,12,140,140_.jpg",
         "age": 24
       }
-    ]
+    ],
+    "genre": "Action"
   },
   {
     "name": "Black Doves",
@@ -157,7 +161,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BMTk2NTMwMjE2Ml5BMl5BanBnXkFtZTgwNDI5MDA1MzI@._V1_QL75_UX140_CR0,7,140,140_.jpg",
         "age": 26
       }
-    ]
+    ],
+    "genre": "Thriller"
   },
   {
     "name": "Secret Level",
@@ -192,7 +197,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BMmZkOGUxOTktNTYzZS00YTAyLTgxYWItNTg1OTZlMDRkMjEwXkEyXkFqcGc@._V1_QL75_UX140_CR0,12,140,140_.jpg",
         "age": 23
       }
-    ]
+    ],
+    "genre": "Animation"
   },
   {
     "name": "The Lord of the Rings: The War of the Rohirrim",
@@ -222,7 +228,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BZTdiNjdiN2EtODBjYi00ODViLTg0YjMtYWVjMzEwMzE5MTcwXkEyXkFqcGc@._V1_QL75_UX140_CR0,12,140,140_.jpg",
         "age": 27
       }
-    ]
+    ],
+    "genre": "Animation"
   },
   {
     "name": "Arcane",
@@ -252,7 +259,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BZDE3NDY1ZjItYTg2Ny00Y2JjLWEzNTItMzdjOGQ5OTBhNjVhXkEyXkFqcGc@._V1_QL75_UX140_CR0,12,140,140_.jpg",
         "age": 27
       }
-    ]
+    ],
+    "genre": "Animation"
   },
   {
     "name": "Moana 2",
@@ -282,7 +290,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BMzNhOTY4NjktYTVkNC00NjVlLWIyYzgtMTc4MGZjZGE3ODhjXkEyXkFqcGc@._V1_QL75_UX140_CR0,0,140,140_.jpg",
         "age": 35
       }
-    ]
+    ],
+    "genre": "Adventure"
   },
   {
     "name": "Wicked",
@@ -312,7 +321,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BMTg0NTI0NDkzOF5BMl5BanBnXkFtZTcwMjYwMTIwNw@@._V1_QL75_UX140_CR0,16,140,140_.jpg",
         "age": 35
       }
-    ]
+    ],
+    "genre": "Musical"
   },
   {
     "name": "Squid Game",
@@ -347,7 +357,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BNmY2NGFiZTAtMWU0Ny00YWEyLThmNmUtZDNjN2Q4Zjg4MjNiXkEyXkFqcGc@._V1_CR511,0,3333,5000_QL75_UX140_CR0,12,140,140_.jpg",
         "age": 30
       }
-    ]
+    ],
+    "genre": "Action"
   },
   {
     "name": "Black Doves",
@@ -382,7 +393,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BMTk2NTMwMjE2Ml5BMl5BanBnXkFtZTgwNDI5MDA1MzI@._V1_QL75_UX140_CR0,7,140,140_.jpg",
         "age": 30
       }
-    ]
+    ],
+    "genre": "Thriller"
   },
   {
     "name": "Secret Level",
@@ -417,7 +429,8 @@
         "image": "https://m.media-amazon.com/images/M/MV5BMmZkOGUxOTktNTYzZS00YTAyLTgxYWItNTg1OTZlMDRkMjEwXkEyXkFqcGc@._V1_QL75_UX140_CR0,12,140,140_.jpg",
         "age": 26
       }
-    ]
+    ],
+    "genre": "Animation"
   },
   {
     "name": "The Lord of the Rings: The War of the Rohirrim",
@@ -447,6 +460,7 @@
         "image": "https://m.media-amazon.com/images/M/MV5BZTdiNjdiN2EtODBjYi00ODViLTg0YjMtYWVjMzEwMzE5MTcwXkEyXkFqcGc@._V1_QL75_UX140_CR0,12,140,140_.jpg",
         "age": 23
       }
-    ]
+    ],
+    "genre": "Animation"
   }
 ]

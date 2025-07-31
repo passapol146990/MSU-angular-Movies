@@ -14,6 +14,7 @@ export interface Movie {
   image_bg: string;
   vidoe: string;
   detail: string;
+  genre: string;
   creator: Creator[];
 }
 
@@ -35,6 +36,10 @@ export class MoviesService {
     return this.movies.find(movie => movie.name === name);
   }
 
+  getMovieByIndex(idx: number): Movie | undefined {
+    return this.movies[idx];
+  }
+
   getAllCreators(): Creator[] {
     const creators: Creator[] = [];
 
@@ -48,6 +53,10 @@ export class MoviesService {
     );
 
     return unique;
+  }
+
+  getMovieByLength(len:number){
+    return this.movies.slice(0,len)
   }
 
   getCreatorsByMovieName(name: string): Creator[] {

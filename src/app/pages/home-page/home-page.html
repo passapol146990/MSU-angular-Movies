@@ -3,18 +3,18 @@
     <div class="container">
         <div class="box-item">
             <div>
-                <label>Top 10</label>
+                <label>Top 10 IMDb this week</label>
             </div>
             <div class="items" style="height: 380px;">
                 @for (item of movies; track $index) {
-                <app-card-mini [id]="$index" [image]="item.image" [star]="item.midb"
+                <app-card-mini [id]="$index+1" [image]="item.image" [star]="item.midb"
                     [title]="item.name"></app-card-mini>
                 }
             </div>
         </div>
         <div class="box-item">
             <div>
-                <label>Top 10</label>
+                <label>Born today</label>
             </div>
             <div class="items" style="height: 220px;">
                 @for (item of creators; track $index) {

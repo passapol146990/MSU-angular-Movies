@@ -1,0 +1,39 @@
+<app-headers></app-headers>
+<div class="arcane-container">
+    <div class="btn">
+        <a href="/" class="btn-back">&lt;&lt; back Home page</a>
+    </div>
+
+    <div class="arcane-hero" style="background-image: url('{{this.movieData?.image_bg}}')">
+        <div class="hero-content">
+            <img [src]="this.movieData?.image" alt="Arcane" class="series-poster">
+            <div class="series-info">
+                <h1 class="series-title">{{ this.movieData?.name }}</h1>
+                <div class="series-rating">
+                    <span class="rating-value">{{ this.movieData?.midb }}</span>
+                    <span class="rating-label">IMDb</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" [src]="safeUrl" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <div class="series-details">
+        <div class="type-movie">
+            <label>{{this.movieData?.genre}}</label>
+        </div>
+
+        <p class="series-description">{{ this.movieData?.detail }}</p>
+
+        <h2 class="creators-title">Creator</h2>
+        <div class="creators-grid">
+            @for (item of this.movieData?.creator; track $index) {
+                <app-card-creadeter [image]="item.image" [name]="item.name" [age]="item.age"></app-card-creadeter>
+            }
+        </div>
+    </div>
+</div>

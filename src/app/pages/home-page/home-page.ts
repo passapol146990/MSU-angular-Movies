@@ -17,7 +17,7 @@ export class HomePage {
   constructor(private movieService: MoviesService) {}
 
   ngOnInit(): void {
-    this.movies = this.movieService.getMovies();
+    this.movies = this.movieService.getMovieByLength(10);
     this.creators = this.movieService.getAllCreators();
   }
 
