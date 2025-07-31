@@ -1,15 +1,26 @@
 <app-headers></app-headers>
-<div class="box-item">
-    <div class="items" style="height: 400px;">
-        @for (item of movies; track $index) {
-            <app-card-mini [id]="$index" [image]="item.image" [star]="item.midb" [title]="item.name"></app-card-mini>
-        }
-    </div>
-</div>
-<div class="box-item">
-    <div class="items" style="height: 100%;">
-        @for (item of creators; track $index) {
-            <app-card-creadeter [image]="item.image" [name]="item.name" [age]="item.age"></app-card-creadeter>
-        }
+<div class="contents">
+    <div class="container">
+        <div class="box-item">
+            <div>
+                <label>Top 10</label>
+            </div>
+            <div class="items" style="height: 380px;">
+                @for (item of movies; track $index) {
+                <app-card-mini [id]="$index" [image]="item.image" [star]="item.midb"
+                    [title]="item.name"></app-card-mini>
+                }
+            </div>
+        </div>
+        <div class="box-item">
+            <div>
+                <label>Top 10</label>
+            </div>
+            <div class="items" style="height: 220px;">
+                @for (item of creators; track $index) {
+                <app-card-creadeter [image]="item.image" [name]="item.name" [age]="item.age"></app-card-creadeter>
+                }
+            </div>
+        </div>
     </div>
 </div>
