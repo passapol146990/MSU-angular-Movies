@@ -4,12 +4,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Movie, MoviesService } from '../../services/MoviesService ';
 import { Headers } from "../../components/headers/headers";
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { CardMini } from "../../components/card-mini/card-mini";
 import { CardCreadeter } from "../../components/card-creadeter/card-creadeter";
+import { BtnToHomepage } from "../../components/btn-to-homepage/btn-to-homepage";
 
 @Component({
   selector: 'app-d-page',
-  imports: [CommonModule, Headers, CardMini, CardCreadeter],
+  imports: [CommonModule, Headers, CardCreadeter, BtnToHomepage],
   templateUrl: './d-page.html',
   styleUrl: './d-page.scss'
 })

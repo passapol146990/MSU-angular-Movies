@@ -1,0 +1,15 @@
+.btn {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    .btn-back {
+      border: none;
+      background: none;
+      color: rgb(235, 217, 25);
+      font-size: 20px;
+      &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }

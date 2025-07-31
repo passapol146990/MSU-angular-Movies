@@ -4,6 +4,7 @@ import MoviesJson from './json/Movies.json';
 export interface Creator {
   name: string;
   image: string;
+  video: string;
   age: number;
 }
 
@@ -25,8 +26,19 @@ export interface Movie {
 
 export class MoviesService {
   private movies: Movie[] = MoviesJson;
+  private creators: { [name: string]: Creator } = {};
 
-  constructor() {}
+  constructor() {
+    this.movies.forEach(movie => {
+      movie.creator.forEach(actor => {
+        this.creators[actor.name] = actor;
+      });
+    });
+  }
+
+  public getCreatorByName(name: string): Creator | undefined {
+    return this.creators[name];
+  }
 
   getMovies(): Movie[] {
     return this.movies;
@@ -55,8 +67,8 @@ export class MoviesService {
     return unique;
   }
 
-  getMovieByLength(len:number){
-    return this.movies.slice(0,len)
+  getMovieByLength(len: number) {
+    return this.movies.slice(0, len)
   }
 
   getCreatorsByMovieName(name: string): Creator[] {

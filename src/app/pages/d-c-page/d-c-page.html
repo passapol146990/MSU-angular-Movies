@@ -1,0 +1,25 @@
+<app-headers></app-headers>
+<div class="contents">
+    <div class="container">
+        <app-btn-to-homepage></app-btn-to-homepage>
+
+        <div class="data">
+            <div class="header">
+                <h1>{{name}}</h1>
+            </div>
+            <div class="body">
+                <div class="image">
+                    <img width="150" height="150" [src]="image" [alt]="image">
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" [src]="video" frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Name : {{ name }}</p>
+                <p>Age : {{ age }}</p>
+            </div>
+        </div>
+    </div>
+</div>
